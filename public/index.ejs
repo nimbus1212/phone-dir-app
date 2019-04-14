@@ -8,7 +8,8 @@
   <title>Phone Directory App</title>
 
 
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
@@ -17,8 +18,66 @@
 
 <body>
 
-<h1 class="text-center">Phone Directory App</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="title mt-3">
+          <h1>Phone Directory App</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="quickadd"><button class=" btn btn-primary " id="QuickAdd">Add Contact</button></div>
+      </div>
+    </div>
 
+    <div class="container">
+      <form>
+        <div class="quickaddForm">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="control-label">
+                  <p>Name*</p>
+                </label><input type="text" id="fullname" class="formFields form-control input-md" placeholder="Mukesh Vyas" pattern="[A-Za-z]+">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="control-label">
+                  <p>Phone*</p>
+                </label><input type="tel" id="phone" class="formFields form-control input-md"  maxlength="10" placeholder="9988776655" pattern="[0-9]+">
+              </div>
+            </div>
+          </div>
+
+          <br><br>
+          <button class="btn btn-success" id="Add">Add Now</button><button class="btn btn-dark"
+            id="Cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="addbook mt-3">
+            <table class="table table-striped">
+
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>

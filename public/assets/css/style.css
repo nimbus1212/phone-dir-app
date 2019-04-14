@@ -1,14 +1,68 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
-  }
-  
-  p {
-    font-size: 19px;
-  }
+    background: url(/public/assets/images/bg3.jpg);
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title h1 {
+    padding: 10px;
+    border-bottom: 2px solid;
+    color: #FFF;
+}
+
+.quickadd {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+.quickaddForm {
+    height: 440px;
+    padding: 10px;
+    background: rgb(240, 240, 240);
+    overflow: hidden;
+    display: none;
+}
+
+
+.quickaddForm input
+{
+    border: 1px dashed;
+    width: 50%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#Add,
+#Cancel {
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+a.delbutton{
+   
+        font-family: sans-serif;
+        color: #FFF;
+        font-size: 18px;
+        padding: 5px;
+        background: rgb(255, 100, 100);
+        border-radius: 8px;
+        text-decoration: none;
+   
+}
+button{
+    cursor: pointer;
+}

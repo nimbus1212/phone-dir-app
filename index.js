@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 // Static Folder
 app.use('*/js', express.static(path.join(__dirname, 'public/assets/js')))
 app.use('*/css', express.static(path.join(__dirname, 'public/assets/css')))
-app.use('*/media', express.static(path.join(__dirname, 'public/assets/media')))
+app.use('*/images', express.static(path.join(__dirname, 'public/assets/images')))
 app.use('*/fonts', express.static(path.join(__dirname, 'public/assets/fonts')))
 app.use(express.static(path.join(__dirname, 'public')));
 // app.use(favicon(path.join(__dirname, 'public/media', 'favicon.ico')))
