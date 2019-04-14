@@ -1,0 +1,41 @@
+{
+  "name": "phone-dir-app",
+  "version": "1.0.0",
+  "description": "phone directory app, frontend assignment for upgrad internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimbus1212/phone-dir-app.git"
+  },
+  "keywords": [
+    "phone",
+    "directory",
+    "app",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "swarnim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimbus1212/phone-dir-app/issues"
+  },
+  "homepage": "https://github.com/nimbus1212/phone-dir-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
